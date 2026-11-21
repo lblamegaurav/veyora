@@ -1,0 +1,24 @@
+{
+  "name": "veyogra-local",
+  "version": "1.0.0",
+  "description": "Full local offline mirror of Veyora Framer website with all animations, assets, fonts, and pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "py": "python3 server.py",
+    "optimize-images": "node scripts/optimize-assets.mjs"
+  },
+  "keywords": [
+    "framer",
+    "veyora",
+    "offline",
+    "mirror"
+  ],
+  "author": "gauravmoriya",
+  "license": "ISC",
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "svgo": "^4.1.0"
+  }
+}
